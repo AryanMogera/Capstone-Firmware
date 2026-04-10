@@ -1,0 +1,6 @@
+../Core/Src/bms_fsm.c:16:13:all_off	8	static
+../Core/Src/bms_fsm.c:21:13:check_faults	24	static
+../Core/Src/bms_fsm.c:38:20:mode_select	16	static
+../Core/Src/bms_fsm.c:50:6:BMS_Init	24	static
+../Core/Src/bms_fsm.c:66:6:BMS_UpdateDerived	24	static
+../Core/Src/bms_fsm.c:78:6:BMS_Step	16	static

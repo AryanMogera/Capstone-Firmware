@@ -1,0 +1,4 @@
+../Core/Src/timebase.c:7:6:SysTick_Handler	4	static
+../Core/Src/timebase.c:8:10:millis	4	static
+../Core/Src/timebase.c:10:6:timebase_init_1ms	16	static
+../Core/Src/timebase.c:19:6:delay_us	24	static,ignoring_inline_asm

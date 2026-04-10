@@ -1,0 +1,7 @@
+../Core/Src/bms_hw.c:15:20:gpio_pin_output	16	static
+../Core/Src/bms_hw.c:26:20:gpio_pin_input_pullup	16	static
+../Core/Src/bms_hw.c:32:20:pin_write	24	static
+../Core/Src/bms_hw.c:37:6:BMS_HW_Init	8	static
+../Core/Src/bms_hw.c:48:6:BMS_HW_SetChargeEnable	16	static
+../Core/Src/bms_hw.c:52:6:BMS_HW_SetDischargeEnable	16	static
+../Core/Src/bms_hw.c:56:6:BMS_HW_UserButtonPressed	4	static

@@ -1,0 +1,17 @@
+../Drivers/CMSIS/Include/core_cm4.h:1938:34:__NVIC_SystemReset	1
+../Core/Src/main.c:14:13:clock_init_minimal	1
+../Core/Src/main.c:24:21:adc_raw_to_v_local	1
+../Core/Src/main.c:46:21:tap1_from_adc	1
+../Core/Src/main.c:50:21:tap2_from_adc	1
+../Core/Src/main.c:54:21:tap3_from_adc	1
+../Core/Src/main.c:58:21:tap4_from_adc	1
+../Core/Src/main.c:71:21:ntc_resistance_from_v	3
+../Core/Src/main.c:77:21:temp_c_from_adc	1
+../Core/Src/main.c:88:21:curr_a_from_adc	1
+../Core/Src/main.c:93:21:lp_filter	1
+../Core/Src/main.c:98:13:charger_present_update	2
+../Core/Src/main.c:107:13:deep_button_update	7
+../Core/Src/main.c:139:13:send_telemetry	4
+../Core/Src/main.c:186:13:handle_cmd	15
+../Core/Src/main.c:275:5:main	9
+../Core/Src/main.c:377:6:USART2_IRQHandler	1
