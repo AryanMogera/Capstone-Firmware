@@ -60,8 +60,8 @@ all: main-build
 main-build: Firmware_skeleton.elf secondary-outputs
 
 # Tool invocations
-Firmware_skeleton.elf Firmware_skeleton.map: $(OBJS) $(USER_OBJS) /Users/aryanmogera/STM32CubeIDE/workspace_1.19.0/Firmware_skeleton/STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Firmware_skeleton.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/aryanmogera/STM32CubeIDE/workspace_1.19.0/Firmware_skeleton/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Firmware_skeleton.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Firmware_skeleton.elf Firmware_skeleton.map: $(OBJS) $(USER_OBJS) /Users/aryanmogera/git/repository/Firmware_skeleton/STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Firmware_skeleton.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/aryanmogera/git/repository/Firmware_skeleton/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Firmware_skeleton.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
