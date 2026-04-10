@@ -7,6 +7,9 @@ Release/
 .metadata/
 *.launch
 
+# Editor metadata
+.vscode/
+
 # Compiled / generated files
 *.o
 *.d
